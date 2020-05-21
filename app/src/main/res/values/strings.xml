@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EmailRegistrForLab</string>
+    <string name="email">Твой Email</string>
+    <string name="Pass">Твой пароль</string>
+    <string name="password">Че пароль забыл?</string>
+    <string name="Enter">Войти непонятно куда</string>
+    <string name="Registration">Зарегаться</string>
+    <string name="textview">TextView</string>
+    <string name="str">Вы успешно залогинились!</string>
+</resources>
