@@ -1,3 +1,4 @@
+package com.example.emailregistrforlab
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -7,8 +8,6 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.emailregistrforlab.R
-import com.example.emailregistrforlab.RegistrOk
 
 @SuppressLint("Registered")
 class MainActivity : AppCompatActivity() {
@@ -16,7 +15,7 @@ class MainActivity : AppCompatActivity() {
     private var password: EditText? = null
     private var login: Button? = null
 
-    protected override fun onCreate(savedInstanceState: Bundle?) {
+    public override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -35,6 +34,14 @@ class MainActivity : AppCompatActivity() {
 
             val intent = Intent(this,RegistrOk::class.java)
             startActivity(intent)
+        }
+        else
+        {
+            Toast.makeText(
+                applicationContext,
+                "Вход невыполнен!",
+                Toast.LENGTH_SHORT
+            ).show()
         }
 
     }
