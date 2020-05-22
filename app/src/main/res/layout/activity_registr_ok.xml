@@ -31,7 +31,20 @@
             android:id="@+id/textViewId"
             android:textStyle="bold"
             android:layout_marginEnd="24dp"
-
             />
+        <Button
+            android:id="@+id/buttonlogin"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_login"
+            android:text="Выйти непонятно откуда"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:onClick="Exit"
+            android:textAllCaps="false"
+            android:textSize="21sp"
+            android:textColor="@color/black"/>
     </LinearLayout>
 </RelativeLayout>
